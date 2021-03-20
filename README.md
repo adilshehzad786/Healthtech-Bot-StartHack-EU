@@ -7,7 +7,26 @@ https://gitpod.io/#github.com/adilshehzad786/Healthtech-Bot-StartHack-EU
 ## Activating Python Virtual Environments
 
 ``
+python3 -m venv venv
+
 source venv/bin/activate
+
+``
+## Git & GitHub Basics 
+
+`` 
+git add . 
+
+git commit -m " Your message"
+
+git branch your-name_dev
+
+git checkout your-name_dev
+
+git branch -M your-name_dev
+
+git push -u origin your-name_dev
+
 ``
 
 ### [What's new with Bot Framework](https://docs.microsoft.com/en-us/azure/bot-service/what-is-new?view=azure-bot-service-4.0)
