@@ -14,7 +14,7 @@ source venv/bin/activate
 ``
 ## Git & GitHub Basics 
 
-`` 
+``
 git add . 
 
 git commit -m " Your message"
