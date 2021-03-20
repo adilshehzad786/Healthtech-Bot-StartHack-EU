@@ -1,0 +1,9 @@
+default_stages: [push]
+repos:
+-   repo: https://github.com/pre-commit/mirrors-pylint
+    rev: v2.4.3
+    hooks:
+    -   id: pylint
+        files: libraries
+        args: [--rcfile=.pylintrc]
+        verbose: true
