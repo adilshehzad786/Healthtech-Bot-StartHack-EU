@@ -1,5 +1,14 @@
-<<<<<<< HEAD
 # ![Bot Framework SDK v4 Python](./doc/media/FrameWorkPython.png)
+
+## Gitpod 
+
+https://gitpod.io/#github.com/adilshehzad786/Healthtech-Bot-StartHack-EU
+
+## Activating Python Virtual Environments
+
+``
+source venv/bin/activate
+``
 
 ### [What's new with Bot Framework](https://docs.microsoft.com/en-us/azure/bot-service/what-is-new?view=azure-bot-service-4.0)
 
@@ -93,61 +102,3 @@ pytest
 
 This is the expected output:
 ```bash
-============================= test session starts =============================
-platform win32 -- Python 3.8.2, pytest-3.4.0, py-1.5.2, pluggy-0.6.0
-rootdir: C:\projects\botbuilder-python, inifile:
-plugins: cov-2.5.1
-...
-```
-
-## Getting support and providing feedback
-Below are the various channels that are available to you for obtaining support and providing feedback. Please pay carful attention to which channel should be used for which type of content. e.g. general "how do I..." questions should be asked on Stack Overflow, Twitter or Gitter, with GitHub issues being for feature requests and bug reports.
-
-### Github issues
-[Github issues](https://github.com/Microsoft/botbuilder-python/issues) should be used for bugs and feature requests.
-
-### Stack overflow
-[Stack Overflow](https://stackoverflow.com/questions/tagged/botframework) is a great place for getting high-quality answers. Our support team, as well as many of our community members are already on Stack Overflow providing answers to 'how-to' questions.
-
-### Azure Support
-If you issues relates to [Azure Bot Service](https://azure.microsoft.com/en-gb/services/bot-service/), you can take advantage of the available [Azure support options](https://azure.microsoft.com/en-us/support/options/).
-
-### Twitter
-We use the [@msbotframework](https://twitter.com/msbotframework) account on twitter for announcements and members from the development team watch for tweets for [@msbotframework](https://twitter.com/msbotframework).
-
-### Gitter Chat Room
-The [Gitter Channel](https://gitter.im/Microsoft/BotBuilder) provides a place where the Community can get together and collaborate.
-
-## Contributing and our code of conduct
-We welcome contributions and suggestions. Please see our [contributing guidelines](./contributing.md) for more information.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact
- [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-### Contributing Code
-
-In order to create pull requests, submitted code must pass ```pylint``` and ```black``` checks.  Run both tools on every file you've changed.
-
-For more information and installation instructions, see:
-
-* [black](https://pypi.org/project/black/)
-* [pylint](https://pylint.org/)
-
-## Reporting Security Issues
-Security issues and bugs should be reported privately, via email, to the Microsoft Security Response Center (MSRC)
-at [secure@microsoft.com](mailto:secure@microsoft.com).  You should receive a response within 24 hours.  If for some
- reason you do not, please follow up via email to ensure we received your original message. Further information,
- including the [MSRC PGP](https://technet.microsoft.com/en-us/security/dn606155) key, can be found in the
-[Security TechCenter](https://technet.microsoft.com/en-us/security/default).
-
-Copyright (c) Microsoft Corporation. All rights reserved.
-
-Licensed under the [MIT](./LICENSE) License.
-
-
-=======
-# HealthBot @ StartHack-EU
-# Team Pwnd3mic
->>>>>>> 77500543f055493c6dba2dc3652b9f7fb14546f6
