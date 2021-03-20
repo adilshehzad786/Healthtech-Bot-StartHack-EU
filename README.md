@@ -1,1 +1,2 @@
-# Healthtech-Bot-StartHack-EU
+# HealthBot @ StartHack-EU
+# Team Pwnd3mic
