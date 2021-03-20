@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ![Bot Framework SDK v4 Python](./doc/media/FrameWorkPython.png)
 
 ### [What's new with Bot Framework](https://docs.microsoft.com/en-us/azure/bot-service/what-is-new?view=azure-bot-service-4.0)
@@ -146,3 +147,7 @@ Copyright (c) Microsoft Corporation. All rights reserved.
 Licensed under the [MIT](./LICENSE) License.
 
 
+=======
+# HealthBot @ StartHack-EU
+# Team Pwnd3mic
+>>>>>>> 77500543f055493c6dba2dc3652b9f7fb14546f6
