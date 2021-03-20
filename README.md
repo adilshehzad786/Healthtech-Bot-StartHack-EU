@@ -7,7 +7,7 @@
 
 * Pratham Darooka (https://www.linkedin.com/in/pdarooka/)
 * Adil Shehzad (https://www.linkedin.com/in/adilshehzad7/)
-* Gaurav Bothra
+* Gaurav Bothra (https://www.linkedin.com/in/gaurav-bothra-2808/)
 * Ronald Kroenigs
 
 ##  Project HealthBot
