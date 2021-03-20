@@ -1,6 +1,0 @@
-[run]
-source = ./libraries/
-omit =
-    */tests/*
-    setup.py
-    */botbuilder-schema/*

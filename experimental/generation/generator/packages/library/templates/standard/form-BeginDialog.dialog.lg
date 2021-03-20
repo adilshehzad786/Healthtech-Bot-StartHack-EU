@@ -1,0 +1,30 @@
+[generator.lg](../generator.lg)
+
+# filename
+- ${formDialogFilename('BeginDialog.dialog')}
+
+# template
+- ```
+{
+    "$schema": "${appSchema}",
+    "$kind": "Microsoft.OnBeginDialog",
+    "actions":  [
+        {
+            "$kind": "Microsoft.SendActivity",
+            "activity": "\${welcome()}"           
+        },
+        {
+            "$kind": "Microsoft.IfCondition",
+            "condition": "!turn.activityProcessed",
+            "actions": [
+                {
+                    "$kind": "Microsoft.EmitEvent",
+                    "eventName": "activityReceived",
+                    "eventValue": "=turn.activity",
+                    "bubbleEvent": false
+                }
+            ]
+        }
+    ]
+}
+```

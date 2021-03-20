@@ -1,0 +1,23 @@
+[generator.lg](../generator.lg)
+
+# filename
+- ${recognizerDir()}${prefix}.${locale}.lu.dialog
+
+# template
+-```
+{
+    "$schema": "${appSchema}",
+    "$kind": "Microsoft.LuisRecognizer",
+    "applicationId": "=settings.luis.${appName()}.appId",
+    "version": "=settings.luis.${appName()}.version",
+    "endpoint": "=settings.luis.endpoint",
+    "endpointKey": "=settings.luis.endpointKey",
+    "predictionOptions": {
+        "includeInstanceData": true
+    }
+}
+```
+
+# appName
+- ${prefix}_${replace(locale, '-', '_')}_lu
+
