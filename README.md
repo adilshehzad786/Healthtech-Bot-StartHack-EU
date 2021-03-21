@@ -96,7 +96,16 @@ git branch -M your-name_dev
 git push -u origin your-name_dev
 
 ```
+## Bot Working 
 
+```
+ cd Health Bot
+ 
+ pip install -r requirements.txt 
+ 
+ python main.py
+
+```
 ### Packages
 
 | Build | Released Package |
